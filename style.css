@@ -1,0 +1,157 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+header img {
+  width: 50px;
+}
+main,
+header {
+  width: 290px;
+  margin: 0 auto;
+}
+.profile-pic,
+.feed-img {
+  width: 48px;
+  border-radius: 50%;
+}
+button {
+  background-color: #1da1f2;
+  border: none;
+  color: white;
+  padding: 10px 19px;
+  border-radius: 20px;
+  width: 100%;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.tweet-input-area {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+textarea {
+  border: none;
+  padding: 10px;
+  margin: 0 0 20px 0;
+  height: 60px;
+  width: 100%;
+  font-size: 20px;
+  line-height: 30px;
+  resize: none;
+}
+.tweet-input-area {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.feed {
+  border-top: 1px solid lightblue;
+  display: flex;
+  align-items: flex-start;
+
+  gap: 20px;
+}
+.feed-img {
+  margin-top: 20px;
+}
+.feed-text {
+  width: 225px;
+}
+i {
+  font-size: 15px;
+  cursor: pointer;
+}
+.fa-regular,
+.fa-solid {
+  font-size: 20px;
+
+  color: gray;
+}
+.fa-regular:hover,
+.fa-solid:hover {
+  color: red;
+  text-shadow: 0px 0px 19px red;
+}
+.icon-section {
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+}
+.icon-sec-inner {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+.red {
+  color: red;
+}
+.green {
+  color: green;
+}
+.tweet-inner {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+.feed-replies {
+  border-bottom: 1px solid #ffeb3b1a;
+  box-sizing: border-box;
+  box-shadow: 0 0 5px #ced4dce0;
+  padding: 10px;
+  margin: 0px 0 14px 59px;
+  width: 80%;
+}
+.hidden {
+  display: none;
+}
+/* //hsl(194deg 6% 6% / 40%);// */
+.reply-modal {
+  position: fixed;
+  margin: auto;
+  top: 44px;
+  left: 0;
+  right: 0;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid #67595e; */
+  border-radius: 5px;
+  width: 405px;
+  height: 300px;
+  background-color: rgb(224, 224, 233);
+  padding: 47px;
+}
+.reply-modal textarea {
+  border: none;
+  /* padding: 10px; */
+  /* margin:  */
+  height: 60px;
+  width: 95%;
+  font-size: 20px;
+  line-height: 30px;
+  resize: none;
+  background-color: rgb(224, 224, 233);
+}
+.reply-modal-close-btn {
+  position: absolute;
+  /* top: 2%; */
+  /* right: -178px; */
+  left: 410px;
+  background-color: transparent;
+  /* border: 2px solid #555; */
+  color: #555;
+  /* border-radius: 50%; */
+  /* padding: 2px 6px; */
+  font-size: 17px;
+  margin: 0;
+  /* padding: 0; */
+  width: 47px;
+}
+.delete-btn {
+  width: 10px;
+}
